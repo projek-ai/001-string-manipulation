@@ -1,0 +1,11 @@
+String exampleString = "example (unwanted thing)example";
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+Serial.println("Output 1: " + exampleString.substring(9,26));
+
+
+}
